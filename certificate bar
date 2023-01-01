@@ -1,0 +1,98 @@
+<style>
+
+.body{
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  padding: 25px;
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.title {
+	color: #5C6AC4;
+}
+.layout_padding-bottom {
+    padding-bottom: 90px;
+}
+
+.certificate_container  {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.certificate :hover {
+    box-shadow: #b9d808 -3px -4px 9px;
+    cursor: pointer;
+}
+
+.certificate figure img{
+    width: 95%;
+}
+
+.certificate figure figcaption {
+    font-size: large;
+    font-weight: bolder;
+}
+@media screen and (max-width: 480px) {
+    .certificate_container {
+        flex-wrap: wrap;
+    }
+
+    .certificate {
+        width: 40%;
+    }
+}
+</style>
+<section id="certificatesid" class="blog_section layout_padding-bottom">
+    <div class="container">
+      <div class="certificate_container">
+        <div class="certificate">
+          <figure>
+            <a href="http://www.sheharyar.live/blog/wp-content/uploads/2023/01/CertificateOfCompletion_Learning-C_SHEHARYAR_Aa697Yo586TTtvdms-s9ODZ4kPS.pdf">
+              <img src="gallery/CppCertificatePic (2) (1)-ts1672596318.png">
+            </a>
+            <figcaption>C++</figcaption>
+          </figure>
+        </div>
+        
+        <div class="certificate">
+          <figure>
+            <a href="https://www.coursera.org/account/accomplishments/verify/YV2WCYR5WTHY">
+              <img src="gallery/python-ts1672598617.png" alt="Coursera python Certificate">
+            </a>
+            <figcaption>Python</figcaption>
+          </figure>
+        </div>
+        <div class="certificate">
+          <figure>
+            <a href="http://www.sheharyar.live/blog/wp-content/uploads/2023/01/IllustratorCS6One-on-One-Intermediate_CertificateOfCompletion.pdf">
+              <img src="gallery/illustratorcertificatepic (2) (1)-ts1672589480.png" alt="Illustrator Certificate">
+            </a>
+            <figcaption>Illustrator</figcaption>
+          </figure>
+        </div>
+        <div class="certificate">
+          <figure>
+            <a href="http://www.sheharyar.live/blog/wp-content/uploads/2023/01/CertificateOfCompletion_HTML-Essential-Training_SHEHARYAR_Ad757iiRflpVuDbks90DZ4kPS.pdf">
+              <img src="gallery/HTML Essential Training_SHEHARYAR_Ad757iiRflpVuDbks90DZ4kPS-ts1672591134.png" alt="HTML Certificate">
+            </a>
+            <figcaption>HTML</figcaption>
+          </figure>
+        </div>
+        <div class="certificate">
+          <figure>
+            <a href="http://www.sheharyar.live/blog/wp-content/uploads/2023/01/CertificateOfCompletion_Design-the-Web-Styling-Form-Elements_SHEHARYAR_AdNdmbbitp9QZN5uNp.pdf">
+              <img src="gallery/WebdesignCertificatePic (1)-ts1672591260.png" alt="Webdesign Certificate">
+            </a>
+            <figcaption>WebDesign / CSS</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
